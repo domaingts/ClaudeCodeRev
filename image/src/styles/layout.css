@@ -68,6 +68,21 @@
   display: none;
 }
 
+html[data-runtime='desktop'] .app-page {
+  padding: 0;
+  place-items: stretch;
+  background: var(--bg-frame);
+}
+
+html[data-runtime='desktop'] .browser-frame {
+  width: 100vw;
+  height: 100vh;
+  min-height: 760px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 @media (max-width: 1180px) {
   .browser-frame {
     height: auto;
